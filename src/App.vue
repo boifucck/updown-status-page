@@ -5,7 +5,7 @@
       <div class="col-md-12 text-center">
         <div class="top">
           <a :href="$config.website_url"><img v-if="typeof $config.logo_url !== 'undefined'" :src="$config.logo_url" :alt="$config.website_name" class="logotop" /></a>
-          <h3>Status Info</h3>
+          <h3>Server / URL Status</h3>
         </div>
       </div>
     </div>
